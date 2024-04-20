@@ -7,13 +7,12 @@ public class Crickets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //comand print crickets
-        print("crickets");
+
     }
 }
